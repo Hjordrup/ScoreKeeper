@@ -19,6 +19,7 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             style="@style/MinusButtons"
+            android:onClick="decreaseScore"
             />
 
         <ImageButton
@@ -28,7 +29,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentEnd="true"
             style="@style/PlusButtons"
-            />
+            android:onClick="increaseScore" />
         <TextView
             android:id="@+id/score_1"
             android:layout_width="wrap_content"
@@ -62,6 +63,7 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             style="@style/MinusButtons"
+            android:onClick="decreaseScore"
             />
 
         <ImageButton
@@ -71,6 +73,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             style="@style/PlusButtons"
+            android:onClick="increaseScore"
             />
 
         <TextView
